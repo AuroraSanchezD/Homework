@@ -1,0 +1,24 @@
+TASK 1 (Git and GitHub)
+
+Question 1
+Complete definitions for key Git & GitHub terminology
+GIT WORKFLOW FUNDAMENTALS
+·        Working Directory/working tree. This is one of the main components of a Git project. It contains the files the user is working on. It’s the place where the user can view and modify files. This does not include files in the staging area.
+·        Staging Area. This is the area that stores files that are going to be part of the next commit. Because of the staging area, Git knows what is going to change between the current commit and the next one. Basically, the staging area contains a list of files that appeared in the previous commit. 
+·        Local Repo (head). A repository saves the history of all changes that the files have been through (.git folder inside a project). 
+Local repositories “live” in the computers of team members. Just like a regular repository, local repos have branches, commits and tags. Nevertheless, a local repo has a directory where a version of our project can be used. 
+·        Remote repo (master). These repositories are hosted on a server that all team members can access. They do not have the directory that the local repos have; just a .git repository folder. 
+ Note for myself. Files go from the working directory to the staging area, and finally to the git repo.
+WORKING DIRECTORY STATES:
+·        Staged. We use this to prepare a file for a future commit.
+·        Modified. The file has been changed but these changes have not been committed to the database. 
+·        Committed. Changes are recorded to the repository.
+ 
+GIT COMMANDS:
+·        Git add. This adds files in the working directory to the Git staging area. We need to use this command before proceeding to git commit. 
+·        Git commit. It creates a commit. These commits work as “save points”. Thanks to git commit, we are able to create a history of changes to our project.
+·        Git push. This command uploads all commits in the local branch to its remote branch. It basically updates these commits from the local to the remote branch. 
+·        Git fetch. It is the opposite of git push. It downloads contents from a remote repository to the local repo. 
+·        Git merge. This takes the contents of a branch and integrates them with another branch. Only the second branch will be changed. The first branch’s history remains unchanged. 
+·        Git pull. This command updates the local version of a repository from a remote repo. 
+
